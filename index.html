@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore o Mundo | Agência de Viagens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ 
+    <header class="navbar">
+        <div class="logo">VoeAlto<span>.</span></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#destinos">Destinos</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato" class="btn-nav">Agendar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>O mundo é grande demais para ficar no mesmo lugar</h1>
+            <p>Descubra pacotes de viagens exclusivos com os melhores preços do mercado.</p>
+            <a href="#destinos" class="btn-primary">Explorar Destinos</a>
+        </div>
+    </section>
+
+    
+    <section id="destinos" class="destinations">
+        <h2>Destinos Populares</h2>
+        <p class="subtitle">Os lugares mais buscados pelos nossos viajantes</p>
+        
+        <div class="grid-destinos">
+            <!-- Card 1 -->
+            <div class="card">
+                <img src="https://pt.wikipedia.org/wiki/Ficheiro:The_Eiffel_Tower,_viewed_from_Tour_Montparnasse,_25_July_2022_(cropped).jpg alt="Paris">
+                <div class="card-body">
+                    <h3>Paris, França</h3>
+                    <p>A cidade luz te espera com romance, cultura e gastronomia inesquecível.</p>
+                    <span class="price">A partir de R$ 4.500</span>
+                    <a href="#contato" class="btn-card">Saber Mais</a>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+                <img src="https://pt.wikipedia.org/wiki/Ficheiro:Tokyo_Shibuya_Scramble_Crossing_2018-10-09.jpg" alt="Tóquio">
+                <div class="card-body">
+                    <h3>Tóquio, Japão</h3>
+                    <p>Uma mistura fascinante de tradições milenares e tecnologia ultra moderna.</p>
+                    <span class="price">A partir de R$ 6.200</span>
+                    <a href="#contato" class="btn-card">Saber Mais</a>
+                </div>
+            </div>
+
+          
+            <div class="card">
+                <img src="https://pt.wikipedia.org/wiki/Ficheiro:Dubai_Skyline_mit_Burj_Khalifa_(cropped).jpg" alt="Dubai">
+                <div class="card-body">
+                    <h3>Dubai, EAU</h3>
+                    <p>Luxo, arquitetura futurista e desertos deslumbrantes em um só lugar.</p>
+                    <span class="price">A partir de R$ 5.100</span>
+                    <a href="#contato" class="btn-card">Saber Mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO SOBRE -->
+    <section id="sobre" class="about">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>Por que viajar conosco?</h2>
+                <p>Somos especialistas em transformar sonhos em roteiros reais. Oferecemos suporte 24h durante toda a sua viagem, guias locais certificados e os melhores hotéis parceiros.</p>
+                <ul>
+                    
+                </ul>
+            </div>
+        </div>
+    </section>
+
+  
+    <section id="contato" class="contact">
+        <h2>Solicite um Orçamento</h2>
+        <p>Preencha os campos abaixo e um consultor entrará em contato hoje mesmo.</p>
+        
+        <form class="contact-form" onsubmit="return false;">
+            <div class="form-group">
+                <input type="text" placeholder="Seu Nome Completo" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Seu Melhor E-mail" required>
+            </div>
+            <div class="form-group">
+                <select required>
+                    <option value="" disabled selected>Selecione o Destino</option>
+                    <option value="paris">Paris, França</option>
+                    <option value="toquio">Tóquio, Japão</option>
+                    <option value="dubai">Dubai, EAU</option>
+                    <option value="outro">Outro Destino</option>
+                </select>
+            </div>
+            <button type="submit" class="btn-submit">Enviar Pedido</button>
+        </form>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2026 VoeAlto Viagens. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
